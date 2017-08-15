@@ -1,0 +1,15 @@
+-database /nas1/apps/rosetta/current/rosetta_database
+-symmetry:symmetry_definition gp120_symm.def
+-in::file::s 4TVP_ABC_INPUT.pdb
+-fa_input 
+-ignore_unrecognized_res 
+#-multi_cool_annealer 10
+-relax::constrain_relax_to_start_coords
+-relax::sc_cst_maxdist 3.0
+#-ex1
+#-ex2
+#-use_input_sc
+-nstruct 10 
+-overwrite 
+#-renumber_pdb
+-mute core.io.pdb.file_data
