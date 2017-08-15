@@ -18,3 +18,6 @@ selected the best energy model and used as the starting structure
 
 3) saturated mutagenesis for each interface position with fixbb and calculate the energy difference(for each position, allow all 20 amino acid, the neighboring residues in 8A are allowed to repack)
 
+### Rosetta Version ###
+Rosetta version bdef871ea0f9cfd3bd76188d3ba0724dd72cee5b 2014-08-14 00:30:00 -0400 from git@github.com:RosettaCommons/main.git
+
