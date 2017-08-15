@@ -14,7 +14,7 @@ selected the best energy model and used as the starting structure
 
 1) Thread the sequence of 4TVP to 3JWO as bound structure
 
-2) Relax the bound(3JWO) and unbound structure 4TVP(same relax command line as shown in above)
+2) Relax the bound(3JWO) and unbound structure 4TVP. Relax as above without symmetry.
 
 3) saturated mutagenesis for each interface position with fixbb and calculate the energy difference(for each position, allow all 20 amino acid, the neighboring residues in 8A are allowed to repack)
 An example resfile is: 4TVP_A_relaxed_mutate_A0473_T.resfile
