@@ -12,7 +12,7 @@ selected the best energy model and used as the starting structure
 
 ## Design of Olio6 CD4KO ##
 
-1) Thread the sequence of 4TVP to 3JWO as bound structure
+1) Thread the sequence of 4TVP to 3JWO as bound structure. Fixbb with options above.
 
 2) Relax the bound(3JWO) and unbound structure 4TVP. Relax as above without symmetry.
 
