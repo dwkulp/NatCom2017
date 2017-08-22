@@ -24,3 +24,9 @@ An example resfile is: 4TVP_A_relaxed_mutate_A0473_T.resfile
 ## Rosetta Version ##
 Rosetta version bdef871ea0f9cfd3bd76188d3ba0724dd72cee5b 2014-08-14 00:30:00 -0400 from git@github.com:RosettaCommons/main.git
 
+## Design of BG505 MD39 CP ##
+
+`designLinearSegment --pdb 4TVP_ABC.pdb --position1 A,661 --position2 A,34 --fragDB X`
+
+## MSL Version ##
+MSL Version 
